@@ -1,0 +1,21 @@
+@import 'src/styles/variables';
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto 105px auto;
+  padding: 60px 0 0 0;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: $black-400;
+  span {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 35px;
+    margin: 0 10px 0 0;
+  }
+}

@@ -1,0 +1,105 @@
+@import 'src/styles/variables';
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &Title {
+    margin: 0 0 0 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: $black-400;
+  }
+}
+
+.drink {
+  display: flex;
+  padding: 40px 0 0 0;
+
+  &Image {
+    width: 370px;
+    height: 380px;
+    border-radius: 10px;
+  }
+
+  &Content {
+    margin: 0 0 0 30px;
+  }
+
+  &Title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: $black-400;
+    margin: 0 0 30px 0;
+  }
+}
+
+.ingredients {
+  margin: 0 0 30px 0;
+  width: 100%;
+  &Title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    color: $black-100;
+    margin: 0 0 20px 0;
+  }
+
+  &Container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.instruction {
+  &Title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: $black-100;
+    margin: 0 0 20px 0;
+  }
+
+  &Description {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.ingredient {
+  display: flex;
+  align-items: center;
+  margin: 0 15px 0 0;
+  &Title {
+    font-size: 16px;
+    line-height: 22px;
+    color: $black-400;
+    margin: 0 10px 0 0;
+  }
+}
+
+.cicle {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: $orange-300;
+  border-radius: 50%;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 380px;
+}
+
