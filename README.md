@@ -1,1 +1,1 @@
-# Drinks. Hello from sandbox!
+# Drinks.
